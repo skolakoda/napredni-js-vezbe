@@ -1,9 +1,8 @@
 // 192.168.0.107:8080
 const fs = require('fs')
 const express = require('express')
-// destruktuiranje - vadi svojstvo iz objekta
-const { getRandomName } = require('./helpers.js')
 const dodajIme = require('./routes/dodajIme')
+const random = require('./routes/random')
 
 const app = express()
 // konfigurisemo aplikaciju da prepozna novi format
@@ -21,9 +20,7 @@ app.get('/sva-imena', (req, res) => {
   res.send(sadrzaj)
 })
 
-app.get('/random', (req, res) => {
-	res.send(getRandomName(imena))
-})
+app.get('/random', random)
 
 app.post('/dodaj-ime', dodajIme)
 
