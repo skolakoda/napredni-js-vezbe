@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ucimo Vue</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="app">
+    <h1>{{ ime }} {{ prezime }}</h1>
+    <p>Jezici koje govorim: </p>
+    <ol>
+      <li v-for="jezik in jezici">
+        {{ jezik }}
+      </li>
+    </ol>
+  </div>
+
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
