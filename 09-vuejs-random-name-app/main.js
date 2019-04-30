@@ -1,13 +1,7 @@
-// definisemo komponente
+// uvozimo komponente
 import RandomIme from './components/random-ime.js';
-
-const Imena = {
-  template: '<h2>Imena</h2>'
-}
-
-const Dodaj = {
-  template: '<h2>Dodaj ime</h2>'
-}
+import Imena from './components/imena.js';
+import Dodaj from './components/dodaj-ime.js';
 
 // definisemo putanje
 
@@ -20,7 +14,7 @@ const putanje = [{
     component: Imena
   },
   {
-    path: '/dodaj/:id',
+    path: '/dodaj',
     component: Dodaj
   }
 ]
