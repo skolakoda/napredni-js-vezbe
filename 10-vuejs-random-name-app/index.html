@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Random Name Vue</title>
+</head>
+<body>
+
+  <div id="app">
+    <nav>
+      <router-link to="/" exact>Home</router-link>
+      <router-link to="/imena">Sva imena</router-link>
+      <router-link to="/dodaj">Dodaj ime</router-link>
+    </nav>
+
+    <router-view></router-view>
+  </div>
+
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script src="main.js" type="module"></script>
+</body>
+</html>
