@@ -2,12 +2,10 @@
 import RandomIme from './components/random-ime.js';
 import Imena from './components/imena.js';
 import Dodaj from './components/dodaj-ime.js';
-import './components/footer.js';
 
-// inicijalizujemo ruter i aplikaciju
+// definisemo putanje
 
-const router = new VueRouter({
-  routes: [{
+const putanje = [{
     path: '/',
     component: RandomIme
   },
@@ -18,8 +16,14 @@ const router = new VueRouter({
   {
     path: '/dodaj',
     component: Dodaj
-  },
-]})
+  }
+]
+
+// inicijalizujemo ruter i aplikaciju
+
+const router = new VueRouter({
+  routes: putanje
+})
 
 new Vue({
   el: '#app',

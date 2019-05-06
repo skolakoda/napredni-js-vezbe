@@ -10,13 +10,11 @@ export default Vue.component('random-ime', {
   },
 
   methods: {
-
     ucitajIme() {
-      fetch('http://192.168.0.104:8080/random')
+      fetch('http://127.0.0.1:8080/random')
         .then(res => res.text())
         .then(res => this.ime = res)
     }
-  
   },
 
   template: `
