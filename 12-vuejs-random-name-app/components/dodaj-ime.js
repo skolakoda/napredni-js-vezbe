@@ -24,7 +24,7 @@ export default Vue.component('dodaj-ime', {
   template: `
   <form v-on:submit="this.posalji">
     <h2>Dodaj ime</h2>
-    <input>
+    <input required>
     <button>Potvrdi</button>
     <p>{{poruka}}</p>
   </form>
