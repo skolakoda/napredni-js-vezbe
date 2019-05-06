@@ -6,7 +6,7 @@ export default Vue.component('imena', {
   },
 
   mounted() {
-    fetch('http://127.0.0.1:8080/sva-imena')
+    fetch('http://192.168.0.104:8080/sva-imena')
       .then(res => res.text())
       .then(res => this.imena = res.split(', '))
   },
