@@ -2,7 +2,7 @@
 
 Materijali za napredni JS kurs 2019.
 
-## Projekti
+## Projekti u toku
 
 Spomenici API:
 https://github.com/skolakoda/spomenici-api
@@ -12,3 +12,7 @@ https://github.com/ivangochanin/map-app
 
 Vue.js app:
 https://github.com/deki80/map-app
+
+## Zatvoreni projekti
+
+https://github.com/skolakoda/random-name-api
