@@ -13,7 +13,7 @@ https://github.com/ivangochanin/map-app
 Vue.js app:
 https://github.com/deki80/map-app
 
-## Zatvoreni projekti
+## Zavrseni projekti
 
 Random name API:
 https://github.com/skolakoda/random-name-api
