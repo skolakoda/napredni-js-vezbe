@@ -15,4 +15,5 @@ https://github.com/deki80/map-app
 
 ## Zatvoreni projekti
 
+Random name API:
 https://github.com/skolakoda/random-name-api
