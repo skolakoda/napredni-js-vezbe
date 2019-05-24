@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  height:100vh;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  grid-template-rows: 1fr 10fr 1fr;
+}
+
+.header{
+  background-color: blue;
+
+  grid-column: 2/-1
+}
+.menu{
+  grid-row: 1/-1;
+  background-color: yellow;
+}
+.content{
+  background-color: red;
+}
+.footer{
+  grid-column: 2/-1;
+
+  background-color: green;
+}
+.container > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size:2rem;
+}
