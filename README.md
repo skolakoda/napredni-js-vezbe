@@ -1,29 +1,19 @@
 # napredni-js-vezbe
 
-Random Name API vezbica
+Materijali za napredni JS kurs 2019.
 
-## API DOKUMENTACIJA
+## Projekti u toku
 
-GET
-192.168.0.102:8080/sva-imena
+Spomenici API:
+https://github.com/skolakoda/spomenici-api
 
-GET
-192.168.0.102:8080/random
+Vanilla JS app:
+https://github.com/ivangochanin/map-app
 
-POST
-(obavezan parametar ime)
-192.168.0.102:8080/dodaj-ime
+Vue.js app:
+https://github.com/deki80/map-app
 
-## ZAHTEVI ZA FRONTEND
+## Zavrseni projekti
 
-Da imamo nekoliko stranica:
-- jedna da prikazuje random ime, i na dugme daje novo
-- jedna stranica daje spisak imena, eventualno dugme za sort
-- forma za slanje, sa obaveznim poljem i eventulano nekom proverom (da nisu brojevi, minimalna duzina 2 slova, da mu povecava prvo slovo)
-
-## ZAHTEVI ZA BEKEND
-
-- da se random ime ne ponavlja
-- da ime ima validan format, a nisu brojevi
-- da dovuku gomilu novih imena sa interneta (web scraping)
-- okaciti na Heroku server
+Random name API:
+https://github.com/skolakoda/random-name-api
