@@ -1,10 +1,10 @@
-# napredni-js-vezbe
+# Napredni Javascript vezbe
 
 Materijali za napredni JS kurs 2019.
 
 ## Projekti
 
-## Random name
+### Random name
 
 Random name API:
 https://github.com/skolakoda/random-name-api
